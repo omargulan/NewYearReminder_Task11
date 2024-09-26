@@ -3,7 +3,7 @@ public class Email extends Contact {
         private final String email;
 
         public Email(String name, String email) {
-
+            super(name);
             this.email = email;
         }
 

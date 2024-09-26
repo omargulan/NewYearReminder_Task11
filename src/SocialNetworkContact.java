@@ -4,6 +4,7 @@ private final String socialNetwork;
 private final String username;
 
 public SocialNetworkContact(String name, String socialNetwork, String username) {
+    super(name);
 
     this.socialNetwork = socialNetwork;
     this.username = username;

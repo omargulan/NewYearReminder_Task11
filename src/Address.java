@@ -4,6 +4,7 @@ private final String city;
 private final String address;
 
 public Address(String name, String city, String address) {
+    super(name);
 
     this.city = city;
     this.address = address;
